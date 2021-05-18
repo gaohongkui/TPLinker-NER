@@ -1,0 +1,11 @@
+
+# misc
+.DS_Store
+
+/.idea/
+
+__pycache__/
+/pretrained_models/*
+/tplinker_plus_ner/wandb/
+/tplinker_plus_ner/default_log_dir/
+/results/*
