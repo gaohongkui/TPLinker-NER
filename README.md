@@ -15,6 +15,9 @@ TPLinker-NER相比于之前的序列标注、半指针-半标注等NER模型，�
 
 **Best F1 on dev: 0.9111**
 
+## Update
+* 2021-06-03:中文NER任务可以尝试更换预训练模型，一般会有提升。笔者实验所用预训练模型为`chinese_wwm_ext` 。
+
 ## Usage
 
 ### 实验环境
