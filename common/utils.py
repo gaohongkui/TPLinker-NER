@@ -276,7 +276,8 @@ class Preprocessor:
             return tok_span
 
         for sample in tqdm(dataset, desc="adding token level spans"):
-            text = sample["text"]
+            if not sample["text"]:
+                continue
             char2tok_span = self._get_char2tok_span(sample["text"])
             for ent in sample["entity_list"]:
                 char_span = ent["char_span"]
